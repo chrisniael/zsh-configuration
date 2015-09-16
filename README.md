@@ -2,16 +2,20 @@
 
 ## 使用截图
 
+iTerm2 + zsh 使用效果
+
 ![images/screenshot.png](images/screenshot.png)
 
 ## 简介
+
+Mac 自带Terminal对配色支持十分差，推荐使用 [iTerm2](https://github.com/gnachman/iTerm2)
 
 * 修改主题为 `agnoster`
 
 	```shell
 	ZSH_THEME="agnoster"
 	```
-	需要使用时间
+	需要安装 [Powerline fonts](https://github.com/powerline/fonts) 字体，否则无法显示agnoster主题的特殊字符
 
 * 配置默认用户
 
