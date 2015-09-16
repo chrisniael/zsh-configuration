@@ -88,7 +88,7 @@
 	zle -N backward-delete-char check-cmd-backward-delete-char
 	```
 
-* 使用截图
+## 使用截图
 
 ![images/screenshot.png](images/screenshot.png)
 
