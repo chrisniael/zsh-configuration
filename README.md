@@ -1,5 +1,9 @@
 # 我的zshrc配置
 
+## 使用截图
+
+![images/screenshot.png](images/screenshot.png)
+
 ## 简介
 
 * 修改主题为 `agnoster`
@@ -7,6 +11,8 @@
 	```shell
 	ZSH_THEME="agnoster"
 	```
+	需要使用时间
+
 * 配置默认用户
 
 	```shell
@@ -19,7 +25,7 @@
 	plugins=(git yii2 composer brew npm gem svn)
 	```
 
-* 设置语言环境 
+* 设置语言环境
 
 	```shell
 	export LANG=zh_CN.UTF-8
@@ -83,14 +89,10 @@
 
 	check-cmd-self-insert() { zle .self-insert && recolor-cmd }
 	check-cmd-backward-delete-char() { zle .backward-delete-char && recolor-cmd }
-	 
+
 	zle -N self-insert check-cmd-self-insert
 	zle -N backward-delete-char check-cmd-backward-delete-char
 	```
-
-## 使用截图
-
-![images/screenshot.png](images/screenshot.png)
 
 ## 一键安装 oh-my-zsh
 
