@@ -1,8 +1,8 @@
-# 我的zshrc配置
+# 我的 zshrc 配置
 
 ## 使用截图
 
-iTerm2 + zsh 使用效果
+[iTerm2](https://github.com/gnachman/iTerm2) + [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh/) 使用效果
 
 ![images/screenshot.png](images/screenshot.png)
 
