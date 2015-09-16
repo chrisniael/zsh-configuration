@@ -6,7 +6,7 @@ iTerm2 + zsh 使用效果
 
 ![images/screenshot.png](images/screenshot.png)
 
-## 简介
+## 具体说明
 
 Mac 自带Terminal对配色支持十分差，推荐使用 [iTerm2](https://github.com/gnachman/iTerm2)
 
