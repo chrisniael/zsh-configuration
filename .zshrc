@@ -50,17 +50,18 @@ export DEFAULT_USER="shenyu"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git yii2 composer brew npm gem svn)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
+export LANG=zh_CN.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -92,12 +93,11 @@ alias cp="cp -i"
 alias mv="mv -i"
 alias mkdir="mkdir -v"
 
+# ls显示颜色
 export CLICOLOR=1
 export LSCOLORS=gxfxaxdxcxegedabagacad
 
-export LANG=zh_CN.UTF-8
-
-#漂亮又实用的命令高亮界面
+# 漂亮又实用的命令高亮界面
 setopt extended_glob
 TOKENS_FOLLOWED_BY_COMMANDS=('|' '||' ';' '&' '&&' 'sudo' 'do' 'time' 'strace')
 
