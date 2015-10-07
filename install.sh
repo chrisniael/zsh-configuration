@@ -22,7 +22,7 @@ curl -L $OH_MY_ZSH_CONFIG_URL  > $HOME/$ZSH_CONFIG_FILE
 
 # 替换<用户目录>, <用户名>
 homedir=$(echo $HOME | sed 's/\//\\\//g')
-sed "s/\/Users\/shenyu/$homedir/" $HOME/$ZSH_CONFIG_FILE
-sed "s/shenyu/$(whoami)/" $HOME/$ZSH_CONFIG_FILE
+sed -i "s/\/Users\/shenyu/$homedir/" $HOME/$ZSH_CONFIG_FILE
+sed -i "s/shenyu/$(whoami)/" $HOME/$ZSH_CONFIG_FILE
 
 echo "done"
