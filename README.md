@@ -101,7 +101,7 @@ Mac 自带Terminal对配色支持十分差，推荐使用 [iTerm2](https://githu
 ## 一键安装 oh-my-zsh
 
 ```shell
-curl -L https://raw.github.com/chrisniael/zsh-configuration/master/install.sh | sh
+sh -c "$(curl -fsSL https://raw.github.com/chrisniael/zsh-configuration/master/install.sh)"
 ```
 
 执行上面的命令，会自动安装 *oh my zsh*, 以及部署我自定义的 [.zhsrc](.zshrc) 配置。

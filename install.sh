@@ -15,10 +15,11 @@ ZSH_CONFIG_FILE=.zshrc
 
 
 # 安装oh-my-zsh
-curl -L $OH_MY_ZSH_INSTALL_URL | sh
+
+sh -c "$(curl -fsSL $OH_MY_ZSH_INSTALL_URL)"
 
 # zsh配置文件
-curl -L $OH_MY_ZSH_CONFIG_URL  > $HOME/$ZSH_CONFIG_FILE
+curl -L $OH_MY_ZSH_CONFIG_URL > $HOME/$ZSH_CONFIG_FILE
 
 # 替换<用户目录>, <用户名>
 homedir=$(echo $HOME | sed 's/\//\\\//g')
